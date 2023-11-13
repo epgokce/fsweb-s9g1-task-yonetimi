@@ -70,6 +70,11 @@ export default function TaskHookForm({ kisiler, submitFn }) {
           <label className="input-label">İnsanlar</label>
           <div>
           </div>
+          <div className="form-line">
+          <button className="submit-button" type="submit" disabled={!isValid}>
+            Kaydet
+          </button>
+          </div>
         </div>
       </form>
     </div>
